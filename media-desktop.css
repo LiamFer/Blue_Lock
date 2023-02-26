@@ -13,6 +13,19 @@
 
   header {
     font-size: 20px;
+    font-weight: 600;
+  }
+
+  nav > a {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  nav > a:hover {
+    color: #2541b2;
+    border: 1px solid #2541b2;
+    transition: all 0.5s;
   }
 
   #container-1 {
@@ -28,15 +41,16 @@
     flex-direction: column;
     height: 80vh;
     transition: all 0.2s;
+    padding: 80px;
   }
 
   #container-2 img {
-    width: 350px;
+    width: 390px;
     height: auto;
   }
 
   #container-2 div {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #container-2 p {
@@ -58,7 +72,7 @@
     text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
   }
 
   .players p {
@@ -86,6 +100,15 @@
     overflow: hidden;
   }
 
+  .players h4 {
+    background-color: #31294f;
+    color: white;
+    border-radius: 5px 5px 20px 20px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
+  }
+
   .players img {
     width: 180px;
   }
@@ -96,5 +119,15 @@
 
   footer {
     font-size: 23px;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    color: #2541b2;
+    text-decoration: underline;
+    transition: color 0.5s, text-decoration 0.6s;
   }
 }
