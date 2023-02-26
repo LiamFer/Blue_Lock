@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* Media for Desktops */
+
+@media screen and (min-width: 769px) {
+  #blue-lock-logo {
+    width: 150px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    font-size: 20px;
+  }
+
+  #container-1 {
+    display: none;
+  }
+
+  video {
+    display: inline-block;
+    width: 100vw;
+  }
+
+  #container-2 {
+    flex-direction: column;
+    height: 80vh;
+    transition: all 0.2s;
+  }
+
+  #container-2 img {
+    width: 350px;
+    height: auto;
+  }
+
+  #container-2 div {
+    font-size: 20px;
+  }
+
+  #container-2 p {
+    padding: 20px;
+  }
+
+  #bachira-wallpaper {
+    height: 80vh;
+    background-attachment: fixed;
+  }
+
+  #container-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 45px;
+    background-color: #ffffff;
+    height: 850px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .players p {
+    display: inline;
+    padding: 15px;
+  }
+
+  .container-3-title {
+    align-self: flex-start;
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 38px;
+  }
+
+  .players {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 280px;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .players img {
+    width: 180px;
+  }
+
+  #container-4 {
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 23px;
+  }
+}
