@@ -65,7 +65,7 @@ video {
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  height: 60vh;
+  height: 500px;
 }
 
 #container-2 img {
@@ -87,7 +87,8 @@ video {
   align-content: center;
   gap: 15px;
   background-color: #ffffff;
-  height: 350px;
+  height: 400px;
+  padding: 20px;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -155,8 +156,8 @@ footer {
   color: #ffffff;
 }
 
-footer a {
-  color: #2541b2;
-  text-decoration: none;
-  font-weight: 800;
+#beginning{
+display: none;
 }
+
+
